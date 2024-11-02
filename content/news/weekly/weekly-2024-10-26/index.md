@@ -15,11 +15,16 @@ title: AUTO 周报 2024-10-26 - 2024-11-02
 
 #### 周报总结
 
-在本周的提交中，oliver-wu 在多个项目中活跃，特别是在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中进行了重要更新，包括修改成绩构成和上线新课程。此外，他还在 [移动机器人导论](https://github.com/HITSZ-OpenAuto/AUTO3012) 中更新了实验报告和作业，并在 [系统辨识](https://github.com/HITSZ-OpenAuto/AUTO5002) 中更新了若干资料。
+本周共有多次代码提交记录：
 
-另一位提交者吴俊达在 [数值分析](https://github.com/HITSZ-OpenAuto/MATH4004) 中进行了初始提交。同时，psp_dada 重新上传了 [自动控制理论 A](https://github.com/HITSZ-OpenAuto/AUTO3001A) 的课件合订本。
+- **周日(10.27)**: oliver-wu 在移动机器人导论课程中更新了一份实验报告及作业，并且在系统辨识课程中更新了若干资料。
+  
+- **周二(10.29)**: 吴俊达 在数值分析课程中进行了首次提交。
+  
+- **周三(10.30)**: 
+  - oliver-wu 对数值分析课程进行了两次提交，分别修改了成绩构成并上线了一门新课程。
+  - GitHub Actions 更新了仓库的 README.md 文件。
+  - psp_dada 重新上传了自动控制理论A课程的课件合订本。
 
-GitHub Actions 也对 [.github](https://github.com/HITSZ-OpenAuto/.github) 的 README.md 进行了更新。
-
-总体来看，本周的提交涉及了课程内容的更新和资料的整理，对项目的推进起到了积极作用。
+本周的提交主要集中在数值分析和移动机器人导论领域，涵盖了课程内容更新及文档维护。
 
