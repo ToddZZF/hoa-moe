@@ -46,9 +46,13 @@
         document.documentElement.style.colorScheme = "light";
       }
   
-      defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
-      if (defaultTheme === "system") {
-        window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
+      if ("color-theme" in localStorage) {
+        localStorage.getItem("color-theme") === "dark" ? setDarkTheme() : setLightTheme();
+      } else {
+        defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
+        if (defaultTheme === "system") {
+          window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
+        }
       }
 
     </script>
